@@ -3,7 +3,7 @@ public class Main {
         BmiService service = new BmiService();
         double heightInMeters = 1.84;
         int weightInKilograms = 69;
-        double miles = service.calculate(heightInMeters, weightInKilograms); // должно получиться 20
-        System.out.println(miles);
+        double BMI = service.calculate(heightInMeters, weightInKilograms); // должно получиться 20
+        System.out.println(BMI);
     }
 }
